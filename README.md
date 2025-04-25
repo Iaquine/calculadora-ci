@@ -14,7 +14,7 @@ Este é um projeto Python simples que implementa uma calculadora com operações
 
 Toda vez que houver um `push` ou `pull request` na branch `main`, os testes automatizados serão executados automaticamente.
 
-A pipeline está definida em `.github/workflows/ci.yml`.
+A pipeline está definida em `.github/workflows/master.yml`.
 
 ## ✅ Tarefas executadas na pipeline
 
