@@ -4,7 +4,7 @@ from calc.operacoes import soma, subtrair, multiplicar, dividir, potencia
 
 
 def test_somar():
-    assert operacoes.somar(2, 3) == 5
+    assert operacoes.soma(2, 3) == 5
 
 def test_subtrair():
     assert operacoes.subtrair(5, 2) == 3
