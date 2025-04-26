@@ -1,5 +1,7 @@
 import pytest
 from calc import operacoes
+from calculadora import soma, subtrai, multiplica, divide, potencia
+
 
 def test_somar():
     assert operacoes.somar(2, 3) == 5
@@ -16,3 +18,9 @@ def test_dividir():
 def test_dividir_por_zero():
     with pytest.raises(ValueError):
         operacoes.dividir(5, 0)
+
+def test_potencia():
+    assert potencia(2, 3) == 8
+    assert potencia(5, 0) == 1
+    assert potencia(4, 2) == 16
+

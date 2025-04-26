@@ -11,3 +11,6 @@ def dividir(a, b):
     if b == 0:
         raise ValueError("Divisão por zero!")
     return a / b
+def potencia(x, y):
+    return x ** y
+
