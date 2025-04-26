@@ -1,6 +1,6 @@
 import pytest
 from calc import operacoes
-from calc import soma, subtrai, multiplica, divide, potencia
+from calc.operacoes import soma, subtrai, multiplica, divide, potencia
 
 
 def test_somar():
